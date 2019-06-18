@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Dice Game</title>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+</head>
+
+<body align="center" onload="onLoad()">
+
+<div style="text-align:center; width:480px; margin: 0 auto;" align="center">
+    <H1 class="metal title">Dice Game</H1><br/>
+    <label class="text" for="diceInput">How many dice?</label><br/>
+    <input class="text" id="diceInput" type="text"/><br/>
+
+    <button id="setup" class="metal linear" onclick="setup()">SETUP</button>
+    <button id="play" class="metal linear" onclick="play()">PLAY</button>
+    <button id="end" class="metal linear" onclick="end()">END</button>
+</div>
+
+<div id= "result-container" style="margin: 0 auto;">
+    <div id="dice1" class="dice"></div>
+    <div id="dice2" class="dice"></div>
+    <div id="dice3" class="dice"></div>
+    <div id="dice4" class="dice"></div>
+    <div id="dice5" class="dice"></div>
+    <div id="dice6" class="dice"></div>
+    <div id="results" class="metal innerText">
+</div>
+
+    <script type="text/javascript" src="game.js"></script>
+    <p> &copy; Harry Williams, University of Liverpool 2018 </p>
+    This document last modified <!--#flastmod file="game.html" -->
+</body>
+</html>

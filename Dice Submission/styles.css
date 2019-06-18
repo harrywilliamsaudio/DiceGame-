@@ -1,0 +1,76 @@
+#result-container
+{
+    width: 480px;
+    position: relative;
+}
+
+.dice {
+    margin: 5px 5px 5px 5px;
+    outline: none;
+    display: none;
+    font: bold 6em/2em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+    text-align: center;
+    color: #E6E6E6;
+
+    font-size: 4em;
+    border-radius: .5em;
+    background-color: #8f8f8f;
+    width: 50px;
+    height: 50px;
+}
+
+html
+{
+    font: 32.5%/1 "Droid Sans", "Lucida Sans Unicode", "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+    background: #E6E6E6;
+    background-size: 5px;
+}
+
+button
+{
+    border: none;
+}
+
+.metal
+{
+    position: relative;
+    margin: 10px auto;
+    outline: none;
+
+    font: bold 6em/2em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+    text-align: center;
+    color: #E6E6E6;
+
+    background-color: #666666;
+}
+
+.metal.linear
+{
+    width: 100px;
+    font-size: 4em;
+    height: 50px;
+    border-radius: .5em;
+}
+
+.metal.title
+{
+    font-size: 10em;
+}
+
+.metal.innerText
+{
+    font-size: 5em;
+}
+
+.text
+{
+    position: relative;
+    margin: 10px auto;
+    outline: none;
+
+    font: bold 6em/2em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+    text-align: center;
+    color: #666666;
+    width: 50px;
+    font-size: 5em;
+}
